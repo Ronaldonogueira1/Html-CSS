@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            /*usar sempre uma fonte generica como a sans-serif*/
+            font-family: Arial, Helvetica, sans-serif; 
+             
+            /* Medidas Absolutas
+            cm, centimento
+            mm, milimetro
+            in, polegada
+            px, pixel
+            pt, ponto
+            pc, paica
+
+
+            Medidas Relativas
+            em, Medida relativa ao tamanho atual da fonte.
+            ex, Relativa a altura x de uma fonte.
+            rem, Relativa ao root font confirugarada no body
+            vw, largura da view port em %(tamanho da tela)
+            vh, altura da view port
+            %
+
+            16px geralmente é = 1em
+            */
+            font-size: 1em;
+
+        }
+
+        h1{
+            
+            /* Shorthand font
+            
+            font-family: 'work sans' sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur commodi, facilis dolor ab earum, maxime sequi minima eos hic est autem accusamus illum. Architecto inventore tempora consequatur odio dolores ab.</p>
+
+    <h2>Subistituto  do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam minima consequuntur omnis neque ad et eum recusandae eos quaerat voluptas quo veritatis eveniet error inventore tenetur blanditiis odit, ducimus a?</p>
+    
+</body>
+</html>

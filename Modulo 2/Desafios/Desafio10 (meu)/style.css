@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'font-droid';
+    src: url(fontes/idroid.otf);
+}
+/* Zerando CSS */
+
+* {
+    text-indent: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+body {
+    text-indent: 20px;
+    margin: auto;
+}
+
+
+header {
+    background-image: linear-gradient(#3CD781, #288B54, #1A5C38);
+    color: white; 
+    padding: 20px 20px 20px 20px;
+     
+}
+
+.t1 {
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.p1 {
+    text-align: center;
+
+}
+
+ul.lista {
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    padding: 20px 0px 10px 0px;
+    width: 300px;
+    justify-content:space-between;
+}
+
+/* Conteudo principal */
+
+main {
+    height: 148em;
+    margin: 0px 200px 0px 200px;
+    box-shadow: 10px 10px 10px 10px black;
+    border-radius: 0px 0px 10px 10px; 
+}
+
+h1, h2 {
+    padding: 10px;
+    font-family: 'font-droid';
+    color: #2E6A4A;
+}
+
+h2 {
+    background-image: linear-gradient(75deg, #C8ECD8, #E8F6EE, #FAFDFC);
+}
+
+.video {
+    justify-content: center;
+    padding: 5px 0px 5px 0px ;
+    display: flex;
+    align-items: center;
+    background-color: #1A5C38;
+}
+
+p {
+    padding: 10px;
+}
+
+/* Conteudo adicional */
+
+.plus {
+    background-color: #389e66;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 45px;
+    padding: 5px;
+}
+
+.pplus {
+    width: 100%;
+    height: 40px;
+    padding: 2px;
+    background-color: #C5EBD6;
+    
+}
+
+.conteudo-plus {
+    height: 0em;
+    width: 100%;
+    padding: 7px;
+}
+
+.lista2 {
+    display: ;
+    flex-direction: column;
+    list-style: ;
+    width: 100%;
+    height: 320px;
+    padding: 5px;
+    background-color: #C5EBD6;
+}
+
+.lp1 {
+    width: 100%;
+    height: 40px;
+    background-color: #C5EBD6;
+     
+}
+
+.lp2 {
+    border-radius: 0px 0px 10px 10px;
+    background-color: #C5EBD6;
+}
+
+.lp3 {
+    width: 100%;
+    height: 50px;
+    padding: 3px;
+}
+
+/* Rodapé */
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding: 2px;
+    background-color: #1a5c38;
+}
